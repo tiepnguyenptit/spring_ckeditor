@@ -21,7 +21,7 @@
     <textarea name="editor" id="editor">&lt;p&gt;Initial editor content.&lt;/p&gt;</textarea>
     <button type="button" class="btn btn-success btn-lg btn-block" id="btn_save">Lưu</button>
     <button type="button" class="btn btn-secondary btn-lg btn-block" id="btn_cancel">Hủy</button>
-
+    <div th:remove="tag" th:utext="${'<h1>Hello World</h1>'}"></div>
 </div>
 
 
